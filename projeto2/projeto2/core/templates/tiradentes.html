@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiradentes</title>
+    
+    <style>
+
+        body{
+
+            background-color: grey;
+            color: white;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            font-size: large;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    {% if tiradentes %}
+       <h1>Hoje é tiradentes!!</h1>
+       
+    {% else %}
+        <h1>Não é feriado de tiradentes!!</h1>
+        <section>
+            <p>Tiradentes é dia 21 de abril.</p>
+       </section>
+
+    {% endif %}
+   
+    
+</body>
+</html>
